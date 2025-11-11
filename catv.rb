@@ -1,12 +1,12 @@
 class Catv < Formula
   desc "Cards Against the Void - AI-powered flashcards CLI"
   homepage "https://github.com/luiz1361/catv"
-  version "v0.0.4"
+  version "v0.0.5"
   license "MIT"
 
   if OS.mac?
-    url "https://github.com/luiz1361/catv/releases/download/v0.0.4/catv-darwin-arm64"
-    sha256 "37e9f19643a33f9ff087519cd4fea458413765789fca023f6ba5ebe13ad78ea3"
+    url "https://github.com/luiz1361/catv/releases/download/v0.0.5/catv-darwin-arm64"
+    sha256 "467e6efd34c5d69e49f57068655947ac140dd0bce0fd52a2f358290c3ce35239"
   end
 
   def install
