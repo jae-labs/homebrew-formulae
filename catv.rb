@@ -1,7 +1,7 @@
 class Catv < Formula
   desc "Cards Against the Void - AI-powered flashcards CLI"
   homepage "https://github.com/jae-labs/catv"
-  version "v0.0.19"
+  version "v0.0.20"
   license "MIT"
 
   if OS.mac?
