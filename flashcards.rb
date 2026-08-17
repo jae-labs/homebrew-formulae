@@ -1,16 +1,16 @@
 class Flashcards < Formula
   desc 'Flashcards - AI-powered flashcards CLI'
   homepage 'https://github.com/jae-labs/flashcards'
-  version 'v0.0.8'
+  version 'v0.0.9'
   license 'MIT'
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/jae-labs/flashcards/releases/download/v0.0.8/flashcards-darwin-arm64"
-      sha256 '0a1739190675623cdcc616f0354423912518c8f315d583808a85bd305239c6d6'
+      url "https://github.com/jae-labs/flashcards/releases/download/v0.0.9/flashcards-darwin-arm64"
+      sha256 '4ee46c2284749e457fd631bae5d6f172152a4da47469ad710d6838cdb951a982'
     elsif Hardware::CPU.intel?
-      url "https://github.com/jae-labs/flashcards/releases/download/v0.0.8/flashcards-darwin-amd64"
-      sha256 '3c90fd51797e42cf35b604d978de85d343c4c6842745fbb80dec7638054a0824'
+      url "https://github.com/jae-labs/flashcards/releases/download/v0.0.9/flashcards-darwin-amd64"
+      sha256 'de20af5af96d7bd022534e9d95293ad975bfc0c42e2372abd966c78761e28151'
     end
   end
 
